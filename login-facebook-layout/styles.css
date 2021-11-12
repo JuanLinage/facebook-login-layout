@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.main{
+    padding: 72px 0px 112px 0px;
+    height: auto;
+    background-color: #f0f2f5;
+}
+.section{
+    text-align: center;
+    height: 496px;
+    padding: 20px 0px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 400px;
+    height: fit-content;
+    padding-right: 32px;
+    text-align: justify;
+}
+.facebook-img{
+    margin-left: -28px;
+    width: 300px;
+    height: 100px;  
+}
+.publi{
+    margin-top: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+.form{
+    margin-top: 10px;
+    height: 350px;
+    width: 396px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    align-items: center;
+}
+.input-container {
+    padding-top: 16px;
+    padding-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.username{
+    color: #1d2129;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    width: 364px;
+    height: 64px;
+    margin-bottom: 6px;
+    line-height: 48px;
+    padding: 10px;
+    outline-color: royalblue;
+}
+.button{
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    width: 364px;
+    height: 48px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #4267b2;
+}
+.bottom-form {
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #dadde1;
+    width: 370px;
+}
+.new-account{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+    line-height: 48px;
+    width: 190px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+.new-account:hover{
+    background-color: #2a9115;
+    cursor: pointer;
+}
+.form-subtitle{
+    margin-top: 28px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.form-subtitle>a{
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+.form-subtitle>a:hover{
+   text-decoration: underline;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    height: 157px;
+    margin: 0;
+}
+.language-selector{
+        list-style: none;
+        align-items: center;
+        padding-bottom: 4px;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: solid 1px #e5e7e9;
+}
+.url-selector{
+    list-style: none;
+    align-items: center;
+    padding-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+li>a{
+    padding-left: 20px;
+    font-size: 12px;
+    color: #8a8d91;
+    text-decoration: none;
+}
+li>a:hover{
+    text-decoration: underline;
+}
